@@ -5,32 +5,7 @@ int main() {
     scanf("%d", &a);
     scanf("%d %d %d %d", &b, &c, &d, &e);
 
-    if(a > b){
-        printf("1\n");
-    }
-    else{
-        printf("0\n");
-    }
+    printf("%d\n%d\n%d\n%d", a > b, a > c, a > d, a > e);
 
-    if(a > c){
-        printf("1\n");
-    }
-    else{
-        printf("0\n");
-    }
-
-    if(a > d){
-        printf("1\n");
-    }
-    else{
-        printf("0\n");
-    }
-
-    if(a > e){
-        printf("1\n");
-    }
-    else{
-        printf("0\n");
-    }
     return 0;
 }
